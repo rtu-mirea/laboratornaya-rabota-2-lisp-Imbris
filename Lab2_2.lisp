@@ -12,7 +12,7 @@
              (setf ind (1+ ind))
              (if (eq ind 20) 
                (progn
-                 (format t "------------------------>>> PRESS ANY KEY to continue~%")
+                 (format t "------------------------>>> PRESS ENTER to continue~%")
                  (setf ind 0) 
                  (read-char)
                ) ;_end_of progn
